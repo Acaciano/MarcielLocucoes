@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{051087AF-0496-4BCE-B483-BD3A8731EF7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1 - Angular", "1.1 - Angular", "{DACEB0DF-7957-4375-A554-26556779AF24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA.MarcielLocucoes.Presentation.App", "AA.MarcielLocucoes.Presentation.App\AA.MarcielLocucoes.Presentation.App.csproj", "{5C4538E4-BB27-4CA8-8A2E-BC3B610C10AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1 - MVC", "1.1 - MVC", "{A59DF106-5C4F-4583-AE66-13E740C3F551}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA.MarcielLocucoes.Presentation.Web", "AA.MarcielLocucoes.Presentation.Web\AA.MarcielLocucoes.Presentation.Web.csproj", "{2561E8E9-2FF3-43D3-8E49-D88AEC71506A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C4538E4-BB27-4CA8-8A2E-BC3B610C10AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C4538E4-BB27-4CA8-8A2E-BC3B610C10AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C4538E4-BB27-4CA8-8A2E-BC3B610C10AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C4538E4-BB27-4CA8-8A2E-BC3B610C10AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2561E8E9-2FF3-43D3-8E49-D88AEC71506A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2561E8E9-2FF3-43D3-8E49-D88AEC71506A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2561E8E9-2FF3-43D3-8E49-D88AEC71506A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2561E8E9-2FF3-43D3-8E49-D88AEC71506A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DACEB0DF-7957-4375-A554-26556779AF24} = {051087AF-0496-4BCE-B483-BD3A8731EF7F}
+		{5C4538E4-BB27-4CA8-8A2E-BC3B610C10AD} = {DACEB0DF-7957-4375-A554-26556779AF24}
+		{A59DF106-5C4F-4583-AE66-13E740C3F551} = {051087AF-0496-4BCE-B483-BD3A8731EF7F}
+		{2561E8E9-2FF3-43D3-8E49-D88AEC71506A} = {A59DF106-5C4F-4583-AE66-13E740C3F551}
+	EndGlobalSection
+EndGlobal
