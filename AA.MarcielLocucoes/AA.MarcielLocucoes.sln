@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1 - MVC", "1.1 - MVC", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA.MarcielLocucoes.Presentation.Web", "AA.MarcielLocucoes.Presentation.Web\AA.MarcielLocucoes.Presentation.Web.csproj", "{2561E8E9-2FF3-43D3-8E49-D88AEC71506A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA.MarcielLocucoes.Presentation.WebSite", "AA.MarcielLocucoes.Presentation.WebSite\AA.MarcielLocucoes.Presentation.WebSite.csproj", "{171DA054-203A-462E-B692-09E630671FEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{2561E8E9-2FF3-43D3-8E49-D88AEC71506A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2561E8E9-2FF3-43D3-8E49-D88AEC71506A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2561E8E9-2FF3-43D3-8E49-D88AEC71506A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{171DA054-203A-462E-B692-09E630671FEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{171DA054-203A-462E-B692-09E630671FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{171DA054-203A-462E-B692-09E630671FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{171DA054-203A-462E-B692-09E630671FEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,5 +42,6 @@ Global
 		{5C4538E4-BB27-4CA8-8A2E-BC3B610C10AD} = {DACEB0DF-7957-4375-A554-26556779AF24}
 		{A59DF106-5C4F-4583-AE66-13E740C3F551} = {051087AF-0496-4BCE-B483-BD3A8731EF7F}
 		{2561E8E9-2FF3-43D3-8E49-D88AEC71506A} = {A59DF106-5C4F-4583-AE66-13E740C3F551}
+		{171DA054-203A-462E-B692-09E630671FEA} = {A59DF106-5C4F-4583-AE66-13E740C3F551}
 	EndGlobalSection
 EndGlobal

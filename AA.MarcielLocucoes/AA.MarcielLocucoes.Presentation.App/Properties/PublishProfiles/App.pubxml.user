@@ -1,0 +1,1648 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\acaciano.souza\Desktop\deploy\app</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="app/app.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/controllers/base-controller.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/controllers/home-controller.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/directives/load-directive.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/directives/mask-directive.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/directives/ui-date-directive.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/angular-animate.min.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/angular-cookies.min.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/angular-input-masks-dependencies.min.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/angular-input-masks.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/angular-input-masks.min.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/angular-local-storage.min.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/angular-resource.min.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/angular-route.min.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/angular-strap.compat.min.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/angular.min.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/authComplete.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/global/credit-card/credit-card.html">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/global/credit-card/credit-card.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/global/credit-card/credit-card.spec.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/global/credit-card/credit-card.test.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/global/date/date-pt-br.html">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/global/date/date.html">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/global/date/date.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/global/date/date.spec.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/global/date/date.test.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/global/global-masks.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/global/money/money.html">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/global/money/money.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/global/money/money.spec.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/global/money/money.test.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/global/number/number.html">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/global/number/number.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/global/number/number.spec.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/global/number/number.test.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/global/percentage/percentage.html">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/global/percentage/percentage.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/global/percentage/percentage.spec.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/global/percentage/percentage.test.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/global/scientific-notation/scientific-notation.html">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/global/scientific-notation/scientific-notation.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/global/scientific-notation/scientific-notation.spec.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/global/scientific-notation/scientific-notation.test.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/global/time/time.html">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/global/time/time.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/global/time/time.spec.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/global/time/time.test.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/loading-bar.min.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/mask.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/string-mask.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/lib/ui-bootstrap-tpls-2.2.0.min.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/value/configValue.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/views/cliente/index.html">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/views/contato/index.html">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/views/empresa/index.html">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/views/home/index.html">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/views/partial/partialBanner.html">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/views/partial/partialFooter.html">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="app/views/partial/partialHeader.html">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="bin/AA.MarcielLocucoes.Presentation.App.dll">
+      <publishTime>12/22/2016 14:39:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>12/22/2016 10:33:09</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>12/22/2016 10:33:09</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>12/22/2016 10:33:09</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>12/22/2016 10:33:09</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>12/22/2016 10:33:09</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>12/22/2016 10:33:09</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>12/22/2016 10:33:09</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>12/22/2016 10:33:09</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>12/22/2016 10:33:09</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>12/22/2016 10:33:09</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>12/22/2016 10:33:09</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>12/22/2016 10:33:09</publishTime>
+    </File>
+    <File Include="content/bootstrap/css/bootstrap.css">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/bootstrap/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/bootstrap/fonts/glyphicons-halflings-regular.html">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/bootstrap/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/bootstrap/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/bootstrap/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/bootstrap/fonts/glyphicons-halflings-regulard41d.eot">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/bootstrap/js/bootstrap.min.js">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/css/animate.css">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/css/animations.css">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/css/custom.css">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/css/print-invoice.css">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/css/skins/blue.css">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/css/skins/cool_green.css">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/css/skins/dark_cyan.css">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/css/skins/gold.css">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/css/skins/gray.css">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/css/skins/orange.css">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/css/skins/pink.css">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/css/skins/purple.css">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/css/skins/vivid_red.css">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/css/style.css">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/css/typography-default.css">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/css/typography-scheme-2.css">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/email_template_blue.html">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/email_template_brown.html">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/email_template_cool_green.html">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/email_template_dark_cyan.html">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/email_template_dark_red.html">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/email_template_gold.html">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/email_template_gray.html">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/email_template_green.html">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/email_template_light_blue.html">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/email_template_orange.html">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/email_template_pink.html">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/email_template_purple.html">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/email_template_red.html">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/email_template_vivid_red.html">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/banner.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/facebook-icon.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/fax-icon.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/feature-icon-1.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/feature-icon-2.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/feature-icon-3.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/feature-icon-4.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/googleplus-icon.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/linkedin-icon.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/logo_blue.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/logo_brown.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/logo_cool_green.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/logo_dark_cyan.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/logo_dark_red.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/logo_gold.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/logo_gray.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/logo_green.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/logo_light_blue.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/logo_orange.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/logo_pink.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/logo_purple.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/logo_red.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/logo_vivid_red.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/mail-icon-white.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/mail-icon.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/marker-icon-white.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/marker-icon.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/phone-icon-white.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/phone-icon.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/project-1.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/project-2.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/project-3.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/project-4.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/service-1.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/service-2.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/service-3.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/service-4.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/team-member-1.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/team-member-2.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/team-member-3.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/team-member-4.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/testimonial.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/email_templates/images/twitter-icon.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/fonts/font-awesome/css/font-awesome.css">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/fonts/font-awesome/fonts/fontawesome-webfont5b62.eot">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/fonts/font-awesome/fonts/fontawesome-webfont5b62.html">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/fonts/font-awesome/fonts/fontawesome-webfont5b62.svg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/fonts/font-awesome/fonts/fontawesome-webfont5b62.ttf">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/fonts/font-awesome/fonts/fontawesome-webfont5b62.woff">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/fonts/font-awesome/fonts/fontawesome-webfontd41d.eot">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/fonts/fontello/css/fontello.css">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/fonts/fontello/font/fontello3904.eot">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/fonts/fontello/font/fontello3904.svg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/fonts/fontello/font/fontello3904.ttf">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/fonts/fontello/font/fontello3904.woff">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/html/index.html">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/agency-background-img-1.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/agency-background-img-2.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/agency-background-img-3.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/avatar.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/background-img-1.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/background-img-10.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/background-img-2.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/background-img-3.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/background-img-4.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/background-img-5.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/background-img-6.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/background-img-7.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/background-img-8.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/background-img-9.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/banner1.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/beauty-1.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/beauty-2.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/beauty-3.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/beauty-4.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/beauty-5.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/beauty-6.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/beauty-section-1.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/beauty-slide-1.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/beauty-slide-2.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/blog-1.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/blog-2-slide-1.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/blog-2-slide-2.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/blog-2.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/blog-3.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/blog-4.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/blog-slide-1.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/blog-slide-2.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/blog-thumb-1.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/blog-thumb-2.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/blog-thumb-3.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/blog-thumb-4.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/category-1.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/category-2.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/category-3.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/category-4.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/category-5.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/category-6.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/client-1.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/client-2.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/client-3.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/client-4.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/client-5.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/client-6.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/client-7.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/client-8.png">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/construction-1.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/construction-2.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/construction-3.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/construction-portfolio-1-2.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/construction-portfolio-1-3.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/construction-portfolio-1.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/construction-portfolio-2.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/construction-portfolio-3.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/construction-portfolio-4.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/construction-portfolio-5.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/construction-portfolio-6.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/construction-portfolio-7.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/construction-portfolio-8.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/construction-service-1.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/construction-service-2.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/construction-service-3.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/construction-slider-slide-1.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/construction-slider-slide-2.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/corporate-1-slider-slide-1.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/corporate-1-slider-slide-2.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/corporate-2-slider-slide-1.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/corporate-2-slider-slide-2.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/corporate-4-slider-slide-1.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/corporate-4-slider-slide-2.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/corporate-5-section-image-1.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/corporate-5-section-image-2.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/corporate-5-service-1.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/corporate-5-service-2.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/corporate-5-service-3.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/corporate-5-service-4.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/corporate-5-service-5.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/corporate-5-service-6.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/corporate-5-slider-slide-1.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/corporate-5-slider-slide-2.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/education-1.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/education-2.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/education-3.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/education-4.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/education-5.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/education-6.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/education-7.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/education-8.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/education-9.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/education-about.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/education-slider-slide-1.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/education-slider-slide-2.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/favicon.ico">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/fullscreen-bg.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/gallery-1.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/gallery-2.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/gallery-3.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/gallery-4.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/gallery-5.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/gallery-6.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/gym-background-img-1.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/gym-background-img-2.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/gym-slide-1.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/gym-team-1.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/gym-team-2.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/gym-team-3.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/gym-team-4.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/hotel-banner.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/hotel-image-1.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/hotel-image-2.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/hotel-image-3.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/hotel-image-4.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/hotel-service-1.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/hotel-service-2.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/hotel-service-3.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/hotel-service-4.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/landing-background-img-1.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/landing-page-2-banner.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/landing-page-banner.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/logistics-section-1.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/logistics-service-1.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/logistics-service-2.jpg">
+      <publishTime>12/22/2016 10:33:02</publishTime>
+    </File>
+    <File Include="content/images/logistics-service-3.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/logistics-service-4.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/logistics-slide-1.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/logistics-slide-2.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/logo_blue.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/logo_cool_green.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/logo_dark_cyan.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/logo_gold.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/logo_gray.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/logo_light_blue.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/logo_orange.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/logo_purple.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/logo_vivid_red.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/medical-blog-thumb-1.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/medical-blog-thumb-2.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/medical-blog-thumb-3.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/medical-section-image-1.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/medical-service-1.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/medical-service-2.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/medical-service-3.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/medical-slider-slide-1.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/medical-slider-slide-2.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/medical-team-member-1.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/medical-team-member-2.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/medical-team-member-3.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/medical-team-member-4.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/page-about-1.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/page-about-2.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/page-about-3.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/page-about-banner-1.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/page-about-banner-2.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/page-about-me-banner.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/page-contact-banner.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/page-portfolio-banner.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/page-services-banner.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/pattern-1.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/pattern-2.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/pattern-3.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/pattern-4.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/pattern-5.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/pattern-6.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/pattern-7.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/pattern-8.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/pattern-9.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/portfolio-1-2.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/portfolio-1-3.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/portfolio-1-4.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/portfolio-1-5.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/portfolio-1.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/portfolio-10.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/portfolio-11.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/portfolio-12.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/portfolio-13.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/portfolio-14.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/portfolio-15.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/portfolio-16.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/portfolio-2.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/portfolio-3.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/portfolio-4.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/portfolio-5.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/portfolio-6.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/portfolio-7.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/portfolio-8.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/portfolio-9.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/portfolio-item-1-2.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/portfolio-item-1-3.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/portfolio-item-1-4.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/portfolio-item-1-5.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/portfolio-item-1.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/portfolio-item-banner-1.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/portfolio-item-banner-2.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/portfolio-slider-slide-1.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/portfolio-slider-slide-2.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/product-1-2.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/product-1-3.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/product-1-4.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/product-1.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/product-2.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/product-3.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/product-4.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/product-5.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/product-6.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/product-7.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/product-8.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/restaurant-2-about.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/restaurant-2-clients.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/restaurant-2-contact.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/restaurant-2-intro.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/restaurant-2-menu.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/restaurant-background-img-1.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/restaurant-dish-1.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/restaurant-dish-10.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/restaurant-dish-11.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/restaurant-dish-12.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/restaurant-dish-2.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/restaurant-dish-3.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/restaurant-dish-4.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/restaurant-dish-5.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/restaurant-dish-6.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/restaurant-dish-7.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/restaurant-dish-8.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/restaurant-dish-9.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/restaurant-section-image-1.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/restaurant-slider-slide-2.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/resume-slide-1.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/section-image-1.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/section-image-2.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/section-image-3.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/section-image-3.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/section-image-4.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/section-image-4.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/section-image-5.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/service-1.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/service-2.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/service-3.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/service-4.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/service-5.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/service-6.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/service-image-1.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/shop-banner.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/shop-slide-1.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/shop-slide-2.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/slider-boxed-slide-1.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/slider-boxed-slide-2.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/slider-fullscreen-slide-1.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/slider-fullscreen-slide-2.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/slider-fullscreen2-slide-1.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/slider-fullscreen2-slide-2.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/slider-fullwidth-slide-1.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/slider-fullwidth-slide-2.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/team-member-1.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/team-member-2.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/team-member-3.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/team-member-4.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/testimonial-1.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/testimonial-2.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/testimonial-3.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/wedding-banner.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/wedding-bride.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/wedding-event-1.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/wedding-event-2.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/wedding-event-3.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/wedding-gallery-1-2.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/wedding-gallery-1.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/wedding-gallery-2.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/wedding-gallery-3.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/wedding-gallery-4.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/wedding-gallery-5.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/wedding-gallery-6.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/wedding-gallery-7.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/wedding-gallery-8.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/wedding-groom.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/images/wedding-place-1.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/js/coming.soon.config.js">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/js/custom.js">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/js/google.map.config.js">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/js/template.js">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/bootstrap-notify/bootstrap-notify.js">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/charts/Chart.js">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/fullpage/jquery.fullpage.js">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/fullpage/jquery.fullpage.min.css">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/hover/hover-min.css">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/isotope/isotope.pkgd.min.js">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/jasny-bootstrap/css/jasny-bootstrap.css">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/jasny-bootstrap/js/jasny-bootstrap.js">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/jquery.browser.js">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/jquery.countdown/jquery.countdown.css">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/jquery.countdown/jquery.countdown.js">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/jquery.countdown/jquery.plugin.js">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/jquery.countTo.js">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/jquery.knob.min.js">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/jquery.min.js">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/jquery.parallax-1.1.3.js">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/jquery.validate.js">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/magnific-popup/jquery.magnific-popup.min.js">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/magnific-popup/magnific-popup.css">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/modernizr.js">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/morphext/morphext.css">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/morphext/morphext.min.js">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/owl-carousel/grabbing.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/owl-carousel/owl.carousel.css">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/owl-carousel/owl.carousel.js">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/owl-carousel/owl.transitions.css">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/pace/pace.min.js">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin-5/assets/coloredbg.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin-5/assets/gridtile.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin-5/assets/gridtile_3x3.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin-5/assets/gridtile_3x3_white.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin-5/assets/gridtile_white.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin-5/assets/loader.gif">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin-5/css/closedhand.html">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin-5/css/layers.css">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin-5/css/navigation.css">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin-5/css/openhand.html">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin-5/css/settings.css">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin-5/fonts/revicons/revicons90c6.eot">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin-5/fonts/revicons/revicons90c6.svg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin-5/fonts/revicons/revicons90c6.ttf">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin-5/fonts/revicons/revicons90c6.woff">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin-5/js/jquery.themepunch.revolution.min838f.js">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin-5/js/jquery.themepunch.tools.min838f.js">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin/assets/arrowleft.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin/assets/arrowright.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin/assets/arrow_left.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin/assets/arrow_left2.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin/assets/arrow_right.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin/assets/arrow_right2.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin/assets/boxed_bgtile.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin/assets/bullet.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin/assets/bullets.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin/assets/bullets2.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin/assets/bullet_boxed.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin/assets/coloredbg.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin/assets/gridtile.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin/assets/gridtile_3x3.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin/assets/gridtile_3x3_white.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin/assets/gridtile_white.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin/assets/large_left.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin/assets/large_right.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin/assets/loader.gif">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin/assets/navigdots.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin/assets/navigdots_bgtile.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin/assets/shadow1.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin/assets/shadow2.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin/assets/shadow3.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin/assets/small_left.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin/assets/small_left_boxed.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin/assets/small_right.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin/assets/small_right_boxed.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin/assets/timer.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin/css/settings.css">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin/font/revicons90c6.eot">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin/font/revicons90c6.svg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin/font/revicons90c6.ttf">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin/font/revicons90c6.woff">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin/images/gradient/g30.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin/images/gradient/g40.png">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin/js/jquery.themepunch.revolution.min.js">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/rs-plugin/js/jquery.themepunch.tools.min.js">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/slimscroll/jquery.slimscroll.min.js">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/SmoothScroll.js">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/vide/jquery.vide.js">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/plugins/waypoints/jquery.waypoints.min.js">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/style-switcher/style-switcher.css">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/style-switcher/style-switcher.js">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/videos/background-video-banner.mp4">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/videos/background-video-banner.webm">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/videos/restaurant-background-video-banner.mp4">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/videos/restaurant-background-video-banner.webm">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/videos/restaurant-video-banner-poster.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="content/videos/video-banner-poster.jpg">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>12/22/2016 10:33:03</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>12/22/2016 14:39:14</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

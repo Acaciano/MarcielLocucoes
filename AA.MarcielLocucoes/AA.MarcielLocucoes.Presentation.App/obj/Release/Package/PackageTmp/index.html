@@ -1,0 +1,262 @@
+﻿<!DOCTYPE html>
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if gt IE 9]> <html lang="en" class="ie"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="pt-br" ng-app="app">
+<head>
+    <base href="/">
+    <meta charset="utf-8">
+    <title>Marciel Locuções</title>
+    <meta name="description" content="The Project a Bootstrap-based, Responsive HTML5 Template">
+    <meta name="author" content="htmlcoder.html">
+    <!-- Mobile Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/content/images/favicon.ico">
+    <!-- Web Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap core CSS -->
+    <link href="/content/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link href="/content/fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <!-- Fontello CSS -->
+    <link href="/content/fonts/fontello/css/fontello.css" rel="stylesheet">
+    <!-- Plugins -->
+    <link href="/content/plugins/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link href="/content/plugins/rs-plugin/css/settings.css" rel="stylesheet">
+    <link href="/content/css/animations.css" rel="stylesheet">
+    <link href="/content/plugins/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="/content/plugins/owl-carousel/owl.transitions.css" rel="stylesheet">
+    <link href="/content/plugins/hover/hover-min.css" rel="stylesheet">
+    <link href="/content/plugins/morphext/morphext.css" rel="stylesheet">
+
+    <!-- The Project's core CSS file -->
+    <link href="/content/css/style.css" rel="stylesheet">
+    <!-- The Project's Typography CSS file, includes used fonts -->
+    <!-- Used font for body: Roboto -->
+    <!-- Used font for headings: Raleway -->
+    <link href="/content/css/typography-default.css" rel="stylesheet">
+    <!-- Color Scheme (In order to change the color scheme, replace the blue.css with the color scheme that you prefer)-->
+    <link href="#" data-style="styles" rel="stylesheet">
+    <link href="/content/style-switcher/style-switcher.css" rel="stylesheet">
+
+    <!-- Custom css -->
+    <link href="/content/css/custom.css" rel="stylesheet">
+
+    <!-- page-wrapper end -->
+    <!-- JavaScript files placed at the end of the document so the pages load faster -->
+    <!-- ================================================== -->
+    <!-- Jquery and Bootstap core js files -->
+    <script type="text/javascript" src="/content/plugins/jquery.min.js"></script>
+    <script type="text/javascript" src="/content/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Modernizr javascript -->
+    <script type="text/javascript" src="/content/plugins/modernizr.js"></script>
+    <!-- jQuery Revolution Slider  -->
+    <script type="text/javascript" src="/content/plugins/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="/content/plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <!-- Isotope javascript -->
+    <script type="text/javascript" src="/content/plugins/isotope/isotope.pkgd.min.js"></script>
+    <!-- Magnific Popup javascript -->
+    <script type="text/javascript" src="/content/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- Appear javascript -->
+    <script type="text/javascript" src="/content/plugins/waypoints/jquery.waypoints.min.js"></script>
+    <!-- Count To javascript -->
+    <script type="text/javascript" src="/content/plugins/jquery.countTo.js"></script>
+    <!-- Parallax javascript -->
+    <script src="/content/plugins/jquery.parallax-1.1.3.js"></script>
+    <!-- Contact form -->
+    <script src="/content/plugins/jquery.validate.js"></script>
+    <!-- Morphext -->
+    <script type="text/javascript" src="/content/plugins/morphext/morphext.min.js"></script>
+    <!-- Background Video -->
+    <script src="/content/plugins/vide/jquery.vide.js"></script>
+    <!-- Owl carousel javascript -->
+    <script type="text/javascript" src="/content/plugins/owl-carousel/owl.carousel.js"></script>
+    <!-- SmoothScroll javascript -->
+    <script type="text/javascript" src="/content/plugins/jquery.browser.js"></script>
+    <script type="text/javascript" src="/content/plugins/SmoothScroll.js"></script>
+    <!-- Initialization of Plugins -->
+    <script type="text/javascript" src="/content/js/template.js"></script>
+    <!-- Custom Scripts -->
+    <script type="text/javascript" src="/content/js/custom.js"></script>
+    <!-- Color Switcher (Remove these lines) -->
+    <script type="text/javascript" src="/content/style-switcher/style-switcher.js"></script>
+
+    <!--Angular -->
+    <script src="app/lib/angular.min.js"></script>
+    <script src="app/lib/ui-bootstrap-tpls-2.2.0.min.js"></script>
+    <script src="app/lib/angular-route.min.js"></script>
+    <script src="app/lib/angular-cookies.min.js"></script>
+    <script src="app/lib/angular-resource.min.js"></script>
+    <script src="app/lib/angular-animate.min.js"></script>
+    <script src="app/lib/angular-local-storage.min.js"></script>
+    <script src="app/lib/angular-input-masks-dependencies.min.js"></script>
+    <script src="app/lib/angular-input-masks.min.js"></script>
+    <script src="app/lib/string-mask.js"></script>
+    <script src="app/lib/mask.js"></script>
+
+    <!-- Angular js -->
+    <script src="app/app.js"></script>
+
+    <!-- Angular Value -->
+    <script src="app/value/configValue.js"></script>
+
+    <!-- Angular Services -->
+    <!-- Angular Directives -->
+    <script src="app/directives/mask-directive.js"></script>
+    <script src="app/directives/ui-date-directive.js"></script>
+    <script src="app/directives/load-directive.js"></script>
+
+    <!-- Angular Controller -->
+    <script src="app/controllers/base-controller.js"></script>
+    <script src="app/controllers/home-controller.js"></script>
+
+</head>
+<body class="no-trans front-page" ng-controller="BaseController">
+    <!-- scrollToTop -->
+    <!-- ================ -->
+    <div class="scrollToTop circle"><i class="icon-up-open-big"></i></div>
+
+    <!-- page wrapper start -->
+    <!-- ================ -->
+    <div class="page-wrapper">
+
+        <div ng-include="'/app/views/partial/partialHeader.html'"></div>
+
+        <!-- banner start -->
+        <!-- ================ -->
+        <div class="banner clearfix">
+            <!-- slideshow start -->
+            <!-- ================ -->
+            <div class="slideshow">
+
+                <!-- slider revolution start -->
+                <!-- ================ -->
+                <div class="slider-banner-container">
+                    <div class="slider-banner-fullwidth">
+                        <ul class="slides">
+                            <!-- slide 1 start -->
+                            <!-- ================ -->
+                            <li data-transition="fade" data-slotamount="1" data-masterspeed="500" data-saveperformance="on" data-title="Voz, Profissionalismo no seu Projeto">
+
+                                <!-- main image -->
+                                <!--<img src="/content/images/corporate-1-slider-slide-2.jpg" alt="slidebg2" data-bgposition="center top" data-bgrepeat="no-repeat" data-bgfit="cover">-->
+                                <!-- Transparent Background -->
+                                <div class="tp-caption dark-translucent-bg"
+                                     data-x="center"
+                                     data-y="bottom"
+                                     data-speed="600"
+                                     data-start="0">
+                                </div>
+                                <!-- LAYER NR. 1 -->
+                                <div class="tp-caption sfb fadeout text-center large_white"
+                                     data-x="center"
+                                     data-y="110"
+                                     data-speed="500"
+                                     data-start="1000"
+                                     data-easing="easeOutQuad">
+                                    Voz, Profissionalismo no seu Projeto
+                                </div>
+                                <!-- LAYER NR. 2 -->
+                                <div class="tp-caption sfb fadeout text-center large_white tp-resizeme hidden-xs"
+                                     data-x="center"
+                                     data-y="150"
+                                     data-speed="500"
+                                     data-start="1300"
+                                     data-easing="easeOutQuad">
+                                    <div class="separator light"></div>
+                                </div>
+                                <!-- LAYER NR. 3 -->
+                                <div class="tp-caption sfb fadeout medium_white text-center hidden-xs"
+                                     data-x="center"
+                                     data-y="180"
+                                     data-speed="500"
+                                     data-start="1300"
+                                     data-easing="easeOutQuad"
+                                     data-endspeed="600">
+                                    Mestre de Cerimônias, Documentários, Narrações
+                                </div>
+                                <!-- LAYER NR. 4 -->
+                                <div class="tp-caption sfb fadeout small_white text-center"
+                                     data-x="center"
+                                     data-y="260"
+                                     data-speed="500"
+                                     data-start="1600"
+                                     data-easing="easeOutQuad"
+                                     data-endspeed="600">
+                                    <a href="/contato" class="btn radius-50 btn-default btn-animated">Entre em Contato  <i class="fa fa-envelope"></i></a>
+                                </div>
+                            </li>
+                            <!-- slide 1 end -->
+                            <!-- slide 2 start -->
+                            <!-- ================ -->
+                            <li data-transition="fade" data-slotamount="1" data-masterspeed="500" data-saveperformance="on" data-title="Voz, Profissionalismo no seu Projeto">
+
+                                <!-- main image -->
+                                <!-- Transparent Background -->
+                                <div class="tp-caption dark-translucent-bg"
+                                     data-x="center"
+                                     data-y="bottom"
+                                     data-speed="600"
+                                     data-start="0">
+                                </div>
+                                <!-- LAYER NR. 1 -->
+                                <div class="tp-caption sfb fadeout text-center large_white"
+                                     data-x="center"
+                                     data-y="110"
+                                     data-speed="500"
+                                     data-start="1000"
+                                     data-easing="easeOutQuad">
+                                    Voz, Profissionalismo no seu Projeto
+                                </div>
+                                <!-- LAYER NR. 2 -->
+                                <div class="tp-caption sfb fadeout text-center large_white tp-resizeme hidden-xs"
+                                     data-x="center"
+                                     data-y="150"
+                                     data-speed="500"
+                                     data-start="1300"
+                                     data-easing="easeOutQuad">
+                                    <div class="separator light"></div>
+                                </div>
+                                <!-- LAYER NR. 3 -->
+                                <div class="tp-caption sfb fadeout medium_white text-center hidden-xs"
+                                     data-x="center"
+                                     data-y="180"
+                                     data-speed="500"
+                                     data-start="1300"
+                                     data-easing="easeOutQuad"
+                                     data-endspeed="600">
+                                    Locuções para Rádio e TV, Vídeos Institucionais
+                                </div>
+                                <!-- LAYER NR. 4 -->
+                                <div class="tp-caption sfb fadeout small_white text-center"
+                                     data-x="center"
+                                     data-y="260"
+                                     data-speed="500"
+                                     data-start="1600"
+                                     data-easing="easeOutQuad"
+                                     data-endspeed="600">
+                                    <a href="/contato" class="btn radius-50 btn-default btn-animated">Entre em Contato  <i class="fa fa-envelope"></i></a>
+                                </div>
+                            </li>
+                            <!-- slide 2 end -->
+                        </ul>
+                        <div class="tp-bannertimer"></div>
+                    </div>
+                </div>
+                <!-- slider revolution end -->
+            </div>
+            <!-- slideshow end -->
+        </div>
+        <!-- banner end -->
+
+        <div data-ng-view=""></div>
+
+        <div ng-include="'/app/views/partial/partialFooter.html'"></div>
+    </div>
+
+</body>
+</html>
