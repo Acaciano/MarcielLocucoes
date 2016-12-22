@@ -50,3 +50,4 @@ C:\Projects\git\MarcielLocucoes\AA.MarcielLocucoes\AA.MarcielLocucoes.Presentati
 C:\Projects\git\MarcielLocucoes\AA.MarcielLocucoes\AA.MarcielLocucoes.Presentation.WebSite\bin\Newtonsoft.Json.xml
 C:\Projects\git\MarcielLocucoes\AA.MarcielLocucoes\AA.MarcielLocucoes.Presentation.WebSite\obj\Debug\AA.MarcielLocucoes.Presentation.WebSite.dll
 C:\Projects\git\MarcielLocucoes\AA.MarcielLocucoes\AA.MarcielLocucoes.Presentation.WebSite\obj\Debug\AA.MarcielLocucoes.Presentation.WebSite.pdb
+C:\Projects\git\MarcielLocucoes\AA.MarcielLocucoes\AA.MarcielLocucoes.Presentation.WebSite\obj\Debug\AA.MarcielLocucoes.Presentation.WebSite.csprojResolveAssemblyReference.cache

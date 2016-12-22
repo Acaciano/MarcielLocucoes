@@ -16,7 +16,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/22/2016 10:33:02</publishTime>
     </File>
     <File Include="app/controllers/home-controller.js">
-      <publishTime>12/22/2016 10:33:02</publishTime>
+      <publishTime>12/22/2016 15:28:03</publishTime>
     </File>
     <File Include="app/directives/load-directive.js">
       <publishTime>12/22/2016 10:33:02</publishTime>
@@ -175,7 +175,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/22/2016 10:33:02</publishTime>
     </File>
     <File Include="app/views/home/index.html">
-      <publishTime>12/22/2016 10:33:02</publishTime>
+      <publishTime>12/22/2016 15:15:36</publishTime>
     </File>
     <File Include="app/views/partial/partialBanner.html">
       <publishTime>12/22/2016 10:33:02</publishTime>
@@ -1639,7 +1639,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/22/2016 10:33:03</publishTime>
     </File>
     <File Include="index.html">
-      <publishTime>12/22/2016 10:33:03</publishTime>
+      <publishTime>12/22/2016 15:15:25</publishTime>
     </File>
     <File Include="Web.config">
       <publishTime>12/22/2016 14:39:14</publishTime>
