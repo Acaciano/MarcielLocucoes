@@ -14,11 +14,12 @@
                 <p>Aguardo seu contato. Retornarei assim que possível.</p>
 
                 <div class="contact-form">
-                    <form id="contact-form-with-recaptcha" class="margin-clear" role="form" novalidate="novalidate">
+                    <form name="contactForm" class="margin-clear" role="form" ng-submit="sendEmail(contactForm.$valid)" novalidate>
                         <div class="form-group has-feedback">
                             <label for="name">Nome *</label>
-                            <input type="text" class="form-control" id="name" name="name" placeholder="">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="" ng-model="contactModel.name" required>
                             <i class="fa fa-user form-control-feedback"></i>
+                            <p ng-show="contactForm.name.$invalid && contactForm.$submitted" class="help-block">You name is required.</p>
                         </div>
                         <div class="form-group has-feedback">
                             <label for="email">E-mail*</label>
@@ -50,7 +51,7 @@
                         <ul class="list">
                             <li><i class="fa fa-home pr-10"></i>795 Folsom Ave, Suite 600 <br><span class="pl-20">San Francisco, CA 94107</span></li>
                             <li><i class="fa fa-phone pr-10"></i><abbr title="Telefone">Telefone:</abbr> (11) 4247-1279</li>
-                            <li><i class="fa fa-mobile pr-10 pl-5"></i><abbr title="Telefone">Celular:</abbr> (11) 99283-1724</li>
+                            <li><i class="fa fa-mobile pr-10 pl-5"></i><abbr title="Telefone">Celular:</abbr> (11) 94023-4157</li>
                             <li><i class="fa fa-envelope pr-10"></i><a href="mailto:contato@granisoproducoes.com.br">contato@granisoproducoes.com.br</a></li>
                         </ul>
                     </div>

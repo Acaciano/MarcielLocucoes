@@ -45,6 +45,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="app\controllers\base-controller.js" />
+    <Content Include="app\controllers\contato-controller.js" />
     <Content Include="app\views\contato\index.html" />
     <Content Include="app\views\empresa\index.html" />
     <Content Include="app\views\cliente\index.html" />
@@ -71,6 +72,7 @@
     <Content Include="content\plugins\rs-plugin\font\revicons90c6.woff" />
     <Content Include="content\videos\background-video-banner.webm" />
     <Content Include="content\videos\restaurant-background-video-banner.webm" />
+    <None Include="Properties\PublishProfiles\App.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

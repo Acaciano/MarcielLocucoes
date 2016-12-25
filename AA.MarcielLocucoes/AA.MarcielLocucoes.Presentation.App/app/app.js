@@ -29,7 +29,7 @@ app.config(function ($routeProvider, $locationProvider, $httpProvider) {
 
     $routeProvider.when('/contato', {
         templateUrl: '/app/views/contato/index.html',
-        controller: 'HomeController'
+        controller: 'ContatoController'
     });
     
     $routeProvider.otherwise({ redirectTo: '/' });
