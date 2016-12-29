@@ -40,6 +40,13 @@ img {
   height: auto;
 }
 
+.logoImg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+      margin-left: 18px;
+}
+
 /* Lists
 ---------------------------------- */
 ul {
@@ -357,7 +364,7 @@ tbody {
 
   .with-dropdown-buttons .header-dropdown-buttons {
     position: absolute;
-    top: 18px;
+    top: 38px;
     right: 0px;
   }
   /*Full width Header*/
@@ -968,7 +975,7 @@ tbody {
 }
 
 .fixed-header-on .header .logo img {
-  max-height: 30px;
+  max-height: 75px;
 }
 
 .fixed-header-on .header.fixed-before .logo img {
@@ -6565,10 +6572,10 @@ header.full-width .animated.main-navigation .dropdown-menu .open .dropdown-menu.
 }
 
 .site-slogan {
-  color: #777777;
-  font-size: 11px;
+  color: #09afdf;
+  font-size: 13px;
   padding: 3px 0 0;
-  font-weight: 300;
+  font-weight: bold;
   opacity: 1;
   filter: alpha(opacity=100);
   -webkit-transition: all 0.3s ease-in-out;

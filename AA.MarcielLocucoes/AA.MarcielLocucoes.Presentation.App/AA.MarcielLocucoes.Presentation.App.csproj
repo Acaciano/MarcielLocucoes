@@ -67,6 +67,7 @@
     <Content Include="content\fonts\fontello\font\fontello3904.woff" />
     <Content Include="content\images\banner1.png" />
     <Content Include="content\images\load2.gif" />
+    <Content Include="content\images\logo.png" />
     <Content Include="content\plugins\rs-plugin-5\fonts\revicons\revicons90c6.eot" />
     <Content Include="content\plugins\rs-plugin-5\fonts\revicons\revicons90c6.ttf" />
     <Content Include="content\plugins\rs-plugin-5\fonts\revicons\revicons90c6.woff" />
