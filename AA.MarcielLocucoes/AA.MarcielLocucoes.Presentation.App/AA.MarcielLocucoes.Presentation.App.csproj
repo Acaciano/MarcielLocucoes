@@ -46,6 +46,7 @@
   <ItemGroup>
     <Content Include="app\controllers\base-controller.js" />
     <Content Include="app\controllers\contato-controller.js" />
+    <Content Include="app\views\solucoes\index.html" />
     <Content Include="app\views\contato\index.html" />
     <Content Include="app\views\empresa\index.html" />
     <Content Include="app\views\cliente\index.html" />
