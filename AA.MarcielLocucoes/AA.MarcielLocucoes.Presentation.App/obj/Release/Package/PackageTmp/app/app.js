@@ -27,9 +27,14 @@ app.config(function ($routeProvider, $locationProvider, $httpProvider) {
         controller: 'HomeController'
     });
 
+    $routeProvider.when('/solucoes', {
+        templateUrl: '/app/views/solucoes/index.html',
+        controller: 'HomeController'
+    });
+
     $routeProvider.when('/contato', {
         templateUrl: '/app/views/contato/index.html',
-        controller: 'HomeController'
+        controller: 'ContatoController'
     });
     
     $routeProvider.otherwise({ redirectTo: '/' });

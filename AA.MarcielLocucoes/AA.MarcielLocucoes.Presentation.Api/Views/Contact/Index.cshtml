@@ -1,0 +1,40 @@
+﻿@model AA.MarcielLocucoes.Presentation.Api.Models.ContactModel
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Graniso Produções - Contato</title>
+</head>
+<body>
+    <table cellpadding="0" cellspacing="0" border="0" width="606">
+        <tr bgcolor="#f6f6f6">
+            <td style="padding:20px;">
+                <span>Olá, Graniso Produções <br /> <p>Você recebeu uma mensagem de contato, através do Portal – Graniso Produções.</p></span>
+                @if (Model != null)
+                {
+                    <span>Nome: @Model.name</span><br />
+                    <span>Telefone: @Model.fone</span><br />
+                    <span>E-mail: @Model.email</span><br />
+                    <span>Mensagem: @Model.message</span>
+                }
+            </td>
+        </tr>
+        <tr bgcolor="#f6f6f6">
+            <td align="center">&nbsp;</td>
+        </tr>
+        <tr>
+            <td width="606" height="59" bgcolor="#666666">
+                <table width="606" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td align="right">
+                            <span style=" width:380px; height:20px; margin:0 auto; display:block; text-align:left; color:#fff; font-family:Arial; font-size:11px;">
+                                Copyright © Graniso Produções. Todos os direitos reservados.
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

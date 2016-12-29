@@ -3,7 +3,7 @@
 
     ddo.restrict = "E";
 
-    ddo.template = '<div style="width: 100%; margin: 5px auto;padding: 8px;"><img src="/content/img/load2.gif" style="width: 50px; float: left" /><h3 class="h4 mar-no"  style="font-size: 13px; float: left; padding-top: 20px;" >Aguarde...</h3></div>';
+    ddo.template = '<div style="width: 100%; margin: 5px auto;padding: 8px;"><img src="/content/images/load2.gif" style="width: 50px; float: left" /><h3 class="h4 mar-no"  style="font-size: 13px; float: left; padding-top: 10px;" >Aguarde...</h3></div>';
 
     ddo.link = function (scope, element) {
         scope.$watch('loading', function (val) {

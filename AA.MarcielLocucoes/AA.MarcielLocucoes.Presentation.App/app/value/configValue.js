@@ -1,4 +1,4 @@
 'use strict';
 angular.module('app').constant('global', {
-    baseUrl: ''
+    baseUrl: 'http://localhost:46128/'
 });

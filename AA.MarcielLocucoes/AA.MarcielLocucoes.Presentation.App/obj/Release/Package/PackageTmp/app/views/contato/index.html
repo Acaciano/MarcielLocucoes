@@ -1,4 +1,12 @@
-﻿<section class="main-container">
+﻿<style>
+    .error {
+        display: block;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        color: #a94442 !important;
+    }
+</style>
+<section class="main-container">
 
     <div class="container">
         <div class="row">
@@ -14,29 +22,48 @@
                 <p>Aguardo seu contato. Retornarei assim que possível.</p>
 
                 <div class="contact-form">
-                    <form id="contact-form-with-recaptcha" class="margin-clear" role="form" novalidate="novalidate">
+                    <form name="contactForm" class="margin-clear" role="form" ng-submit="sendEmail(contactForm.$valid)" novalidate>
                         <div class="form-group has-feedback">
                             <label for="name">Nome *</label>
-                            <input type="text" class="form-control" id="name" name="name" placeholder="">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="" ng-model="contactModel.name" required>
                             <i class="fa fa-user form-control-feedback"></i>
+                            <p ng-show="contactForm.name.$invalid && contactForm.$submitted" class="error">O campo nome é obrigatório.</p>
                         </div>
                         <div class="form-group has-feedback">
                             <label for="email">E-mail*</label>
-                            <input type="email" class="form-control" id="email" name="email" placeholder="">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="" ng-model="contactModel.email" required>
                             <i class="fa fa-envelope form-control-feedback"></i>
+                            <p ng-show="contactForm.email.$invalid && contactForm.$submitted" class="error">O campo e-mail é obrigatório.</p>
+                            <p ng-show="contactForm.email.$error.email && contactForm.$submitted" class="error">Este endereço de email não é válido.</p>
                         </div>
                         <div class="form-group has-feedback">
-                            <label for="subject">Telefone*</label>
-                            <input type="text" class="form-control" id="subject" name="subject" placeholder="">
+                            <label for="fone">Telefone*</label>
+                            <input type="text" class="form-control" id="fone" name="fone" placeholder="" fcformat="phoneDdd" ng-model="contactModel.fone" required>
                             <i class="fa fa-phone form-control-feedback"></i>
+                            <p ng-show="contactForm.fone.$invalid && contactForm.$submitted" class="error">O campo telefone é obrigatório.</p>
                         </div>
                         <div class="form-group has-feedback">
                             <label for="message">Mensagem*</label>
-                            <textarea class="form-control" rows="6" id="message" name="message" placeholder=""></textarea>
+                            <textarea class="form-control" rows="6" id="message" name="message" placeholder="" ng-model="contactModel.message" required></textarea>
                             <i class="fa fa-pencil form-control-feedback"></i>
+                            <p ng-show="contactForm.message.$invalid && contactForm.$submitted" class="error">O campo mensagem é obrigatório.</p>
                         </div>
-                        <input type="submit" value="Enviar" class="submit-button btn btn-default">
+                        <input type="submit" value="Enviar" ng-hide="loading" class="submit-button btn btn-default" ng-show="!boxMessageSuccess">
+
+                        <div class="alert alert-icon alert-success" role="alert" ng-show="boxMessageSuccess">
+                            <i class="fa fa-check"></i>
+                            {{message}}
+                        </div>
+
+                        <div class="alert  alert-icon alert-danger" role="alert" ng-show="boxMessageError">
+                            <i class="fa fa-times" ng-click="close()" title="Fechar" style="cursor: pointer"></i>
+                            {{message}}
+                        </div>
+
                     </form>
+
+
+                    <loading></loading>
                 </div>
             </div>
             <!-- main end -->
@@ -50,7 +77,7 @@
                         <ul class="list">
                             <li><i class="fa fa-home pr-10"></i>795 Folsom Ave, Suite 600 <br><span class="pl-20">San Francisco, CA 94107</span></li>
                             <li><i class="fa fa-phone pr-10"></i><abbr title="Telefone">Telefone:</abbr> (11) 4247-1279</li>
-                            <li><i class="fa fa-mobile pr-10 pl-5"></i><abbr title="Telefone">Celular:</abbr> (11) 99283-1724</li>
+                            <li><i class="fa fa-mobile pr-10 pl-5"></i><abbr title="Telefone">Celular:</abbr> (11) 94023-4157</li>
                             <li><i class="fa fa-envelope pr-10"></i><a href="mailto:contato@granisoproducoes.com.br">contato@granisoproducoes.com.br</a></li>
                         </ul>
                     </div>
