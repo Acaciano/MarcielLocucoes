@@ -65,6 +65,8 @@
     <Content Include="content\fonts\fontello\font\fontello3904.eot" />
     <Content Include="content\fonts\fontello\font\fontello3904.ttf" />
     <Content Include="content\fonts\fontello\font\fontello3904.woff" />
+    <Content Include="content\images\banner1.jpg" />
+    <Content Include="content\images\banner2.jpg" />
     <Content Include="content\images\banner1.png" />
     <Content Include="content\images\load2.gif" />
     <Content Include="content\images\logo.png" />
