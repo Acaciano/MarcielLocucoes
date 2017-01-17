@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Configuration;
-using AA.MarcielLocucoes.Presentation.Api.Helper;
+using AA.MarcielLocucoes.Presentation.ApiV2.Helper;
 using AA.MarcielLocucoes.Presentation.ApiV2.Models;
 
 namespace AA.MarcielLocucoes.Presentation.ApiV2.Service
