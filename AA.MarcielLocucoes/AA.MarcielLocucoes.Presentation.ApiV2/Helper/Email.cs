@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Configuration;
-using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Mail;
 using System.Text;
 
-namespace AA.MarcielLocucoes.Presentation.Api.Helper
+namespace AA.MarcielLocucoes.Presentation.ApiV2.Helper
 {
     public static class Email
     {
@@ -43,7 +42,7 @@ namespace AA.MarcielLocucoes.Presentation.Api.Helper
                 SmtpClient smtp = new SmtpClient
                 {
                     Host = strSmtp,
-                    EnableSsl = false,
+                    EnableSsl = true,
                     Port = Convert.ToInt32(portSmtp),
                     UseDefaultCredentials = false,
                     Credentials = new NetworkCredential(loginSmtp, passwordSmtp)
