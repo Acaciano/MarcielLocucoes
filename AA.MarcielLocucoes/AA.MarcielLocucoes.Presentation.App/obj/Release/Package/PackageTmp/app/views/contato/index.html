@@ -22,7 +22,7 @@
                 <p>Envie-nos uma mensagem e retornaremos o mais breve possível.</p>
 
                 <div class="contact-form">
-                    <form name="contactForm" class="margin-clear" role="form" ng-submit="sendEmail(contactForm.$valid)" novalidate>
+                    <form name="contactForm" class="margin-clear" role="form" novalidate>
                         <div class="form-group has-feedback">
                             <label for="name">Nome *</label>
                             <input type="text" class="form-control" id="name" name="name" placeholder="" ng-model="contactModel.name" required>
@@ -48,8 +48,8 @@
                             <i class="fa fa-pencil form-control-feedback"></i>
                             <p ng-show="contactForm.message.$invalid && contactForm.$submitted" class="error">O campo mensagem é obrigatório.</p>
                         </div>
-                        <input type="submit" value="Enviar" ng-hide="loading" class="submit-button btn btn-default" ng-show="!boxMessageSuccess">
-
+                        <input type="submit" value="Enviar" ng-hide="loading" class="submit-button btn btn-default" ng-click="sendEmail(contactForm.$valid)" ng-show="!boxMessageSuccess">
+             
                         <div class="alert alert-icon alert-success" role="alert" ng-show="boxMessageSuccess">
                             <i class="fa fa-check"></i>
                             {{message}}
@@ -72,10 +72,10 @@
             <aside class="col-md-4 col-lg-3 col-lg-offset-1">
                 <div class="sidebar">
                     <div class="block clearfix">
-                        <h3 class="title">Ache-nos</h3>
+                        <!--<h3 class="title">Ache-nos</h3>-->
                         <div class="separator-2"></div>
                         <ul class="list" style="font-size: 14px;">
-                            <li><i class="fa fa-home pr-10"></i>Av. Adelino Cardana, 203 - 4ª Andar <br><span class="pl-20">Barueri - SP</span></li>
+                            <li><i class="fa fa-home pr-10"></i>Av. Adelino Cardana, 293 - 4ª Andar <br><span class="pl-20">Barueri - SP</span></li>
                             <li><i class="fa fa-phone pr-10"></i><abbr title="Telefone">Telefone:</abbr> (11) 4247-1279</li>
                             <li><i class="fa fa-mobile pr-10 pl-5"></i><abbr title="Telefone">Celular:</abbr> (11) 94023-4157</li>
                             <li><i class="fa fa-envelope pr-10"></i><a href="mailto:contato@granisoproducoes.com.br">contato@granisoproducoes.com.br</a></li>

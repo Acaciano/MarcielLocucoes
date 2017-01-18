@@ -78,6 +78,7 @@
     <Content Include="content\plugins\rs-plugin\font\revicons90c6.woff" />
     <Content Include="content\videos\background-video-banner.webm" />
     <Content Include="content\videos\restaurant-background-video-banner.webm" />
+    <Content Include="email.php" />
     <None Include="Properties\PublishProfiles\App.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

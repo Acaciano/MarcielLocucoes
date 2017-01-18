@@ -11,39 +11,44 @@ angular.module('app').controller('ContatoController', function ($scope, $http, g
 
             $scope.loading = true;
 
+            var value = $.param($scope.contactModel);
+
             $http({
                 method: 'POST',
-                url: global.baseUrl + '/v1/contact/send',
-                data: $scope.contactModel
-            }).then(function successCallback(response) {
-                if (response.data.success) {
-                    $scope.message = response.data.message;
-                    $scope.boxMessageSuccess = true;
-                    $scope.boxMessageError = false;
-                    $scope.loading = false;
+                url: 'email.php',
+                data: value,
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8' }
+            })
+		    .success(function (data) {
+		        if (data.enviado) {
+		            
+		            $scope.message = "Email foi enviado com sucesso, Entraremos em contato em breve!";
+		            $scope.boxMessageSuccess = true;
+		            $scope.boxMessageError = false;
+		            $scope.loading = false;
 
-                    setTimeout(function() {
-                        location.href = '/';
-                    }, 4000);
+		            setTimeout(function () {
+		                location.href = '/';
+		            }, 4000);
 
-                } else {
-                    $scope.message = response.data.message;
-                    $scope.boxMessageSuccess = false;
-                    $scope.boxMessageError = true;
-                    $scope.loading = false;
-                }
-            }, function errorCallback(response) {
-                $scope.message = "Não foi possivel enviar o contato, tente novamente mais tarde.";
+		        } else {
+		            $scope.message = "Não foi possivel enviar o e-mail, tente novamente mais tarde.";
+		            $scope.boxMessageSuccess = false;
+		            $scope.boxMessageError = true;
+		            $scope.loading = false;
+		        }
+		    })
+		    .error(function (error) {
+		        $scope.message = "Não foi possivel enviar o e-mail, tente novamente mais tarde.";
 
-                $scope.boxMessageSuccess = false;
-                $scope.boxMessageError = true;
-                $scope.loading = false;
-            });
-
+		        $scope.boxMessageSuccess = false;
+		        $scope.boxMessageError = true;
+		        $scope.loading = false;
+		    });
         }
     }
 
-    $scope.close = function() {
+    $scope.close = function () {
         $scope.boxMessageError = false;
     }
 });
