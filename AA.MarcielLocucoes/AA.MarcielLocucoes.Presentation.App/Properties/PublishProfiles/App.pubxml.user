@@ -196,7 +196,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/06/2017 07:48:41</publishTime>
     </File>
     <File Include="bin/AA.MarcielLocucoes.Presentation.App.dll">
-      <publishTime>02/06/2017 07:48:58</publishTime>
+      <publishTime>02/06/2017 12:17:39</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>02/03/2017 15:44:07</publishTime>
@@ -559,7 +559,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/03/2017 15:43:56</publishTime>
     </File>
     <File Include="content/images/banner1-new.jpg">
-      <publishTime>02/06/2017 07:18:19</publishTime>
+      <publishTime>02/06/2017 12:17:25</publishTime>
     </File>
     <File Include="content/images/banner1.jpg">
       <publishTime>02/03/2017 15:43:56</publishTime>
